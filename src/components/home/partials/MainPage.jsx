@@ -6,7 +6,7 @@ import { BiSolidSend } from "react-icons/bi";
 
 function MainPage() {
   return (
-    <section className="flex flex-col items-center justify-center h-[calc(66vh-64px)] px-6 bg-gray-50">
+    <section className=" mainPage flex flex-col items-center justify-center h-[calc(66vh-64px)] px-6 bg-gray-50">
 
 
       <div className="flex flex-col items-center text-center max-w-2xl space-y-5">

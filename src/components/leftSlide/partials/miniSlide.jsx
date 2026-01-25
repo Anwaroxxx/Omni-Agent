@@ -34,7 +34,7 @@ function MiniSlide() {
 
       <div className="flex flex-col gap-5 items-center">
         <IconWrapper>
-          <ImBrightnessContrast size={18} />
+          <ImBrightnessContrast size={18}  className='darkMode'/>
         </IconWrapper>
 
         <IconWrapper>
