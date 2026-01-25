@@ -6,32 +6,47 @@ import { IoMdNotifications } from "react-icons/io";
 
 function Navbar() {
   return (
-    <>
-      <nav className="mainNavigation">
-        <div className="history">
-          <div className="upgradePlan">
-            <AiOutlineDollarCircle />
-            <p>Upgrade Plan</p>
-          </div>
-          <div className="historyBtn">
-            <LuHistory />
-            <p>History</p>
-          </div>
-        </div>
-        <div className="share">
-          <div className="shareItems">
-            <IoShareSocial />
-          </div>
-          <div className="shareItems">
-            <BsFillEnvelopeExclamationFill />
-          </div>
-          <div className="shareItems">
-            <IoMdNotifications />
-          </div>
-        </div>
-      </nav>
-    </>
+    <nav className="w-full h-[64px] bg-white border-b border-gray-200 flex items-center justify-between px-6">
+
+      <div className="flex items-center gap-3">
+
+        <button className="flex items-center gap-2 bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-medium hover:bg-orange-200 transition">
+          <AiOutlineDollarCircle size={18} />
+          Upgrade Plan
+        </button>
+
+        <button className="flex items-center gap-2 border border-gray-200 px-4 py-2 rounded-full text-sm text-gray-600 hover:bg-gray-50 transition">
+          <LuHistory size={16} />
+          History
+        </button>
+
+      </div>
+
+      <div className="flex items-center gap-3">
+
+        <IconButton>
+          <IoShareSocial size={18} />
+        </IconButton>
+
+        <IconButton>
+          <BsFillEnvelopeExclamationFill size={16} />
+        </IconButton>
+
+        <IconButton>
+          <IoMdNotifications size={18} />
+        </IconButton>
+
+      </div>
+    </nav>
   );
 }
 
 export default Navbar;
+
+function IconButton({ children }) {
+  return (
+    <button className="w-10 h-10 flex items-center justify-center rounded-full border border-gray-200 text-gray-600 hover:bg-gray-100 hover:text-gray-800 transition">
+      {children}
+    </button>
+  );
+}
