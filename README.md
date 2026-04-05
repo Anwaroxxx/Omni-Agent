@@ -1,63 +1,67 @@
 # Omni-Agent
 
-Omni-Agent is a high-performance, minimalist, and state-of-the-art AI Copilot application. Built with **React**, **Vite**, and **Tailwind CSS v4**, it provides a seamless and responsive conversational experience powered by the **Groq API**.
+Omni-Agent is a high-performance, minimalist, and state-of-the-art AI Copilot application. Built for efficiency and elegant design, it provides a seamless conversational experience powered by advanced Llama models.
 
-## 🛠 Features
+![Omni-Agent Logic](https://img.shields.io/badge/Omni--Agent-AI--Powered-orange?style=for-the-badge)
+![Tech Stack](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-| Feature | Description |
+## Core Capabilities
+
+| Capability | Description |
 | :--- | :--- |
-| **🚀 Fast AI Responses** | Powered by Groq's high-speed Llama models for near-instant interaction. |
-| **🎨 Premium UI** | Minimalist, zinc-based design with smooth transitions and glass-morphism. |
-| **🌓 Dynamic Themes** | Full support for Dark and Light modes with persistent state management. |
-| **📁 Contextual Chats** | Local history storage for persistent conversations and easy navigation. |
-| **🖼 Image Support** | Ready for vision-capable models with easy image and file uploads. |
+| **High-Performance AI** | Leverages Groq's Llama models for sub-second inference speeds. |
+| **State-of-the-Art Interface** | Minimalist zinc-based design with professional glass-morphism effects. |
+| **Intelligent Theme Engine** | Native support for class-based dark and light mode synchronization. |
+| **Persistent Conversations** | Localized chat history management for uninterrupted workflows. |
+| **Multimodal Readiness** | Engineered to support vision models with integrated asset upload pipelines. |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- **Node.js**: Version 18.0.0 or higher.
-- **npm**: Version 8.0.0 or higher.
-- **Groq API Key**: Obtainable from [console.groq.com](https://console.groq.com/).
+- **Node.js**: LTS Version (18.x or 20.x)
+- **Groq API Key**: Accessible via the [Groq Cloud Console](https://console.groq.com/)
 
 ### Installation
 
-1. **Clone the repository**:
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Anwaroxxx/Omni-Agent.git
    cd Omni-Agent
    ```
 
-2. **Install dependencies**:
+2. **Deploy Dependencies**:
    ```bash
    npm install
    ```
 
-3. **Configure environment variables**:
-   Create a `.env` file in the root directory and add your Groq API key:
+3. **Initialize Environment**:
+   Create a `.env` file in the root directory:
    ```env
    VITE_GROQ_API_KEY=your_groq_api_key_here
    ```
 
-4. **Run the development server**:
+4. **Launch Development Environment**:
    ```bash
    npm run dev
    ```
 
-## 🎮 How to Use
+## Usage Protocol
 
-1. **Start a Conversation**: Click the **+ New Chat** button in the sidebar to begin a fresh session.
-2. **Chat with AI**: Type your message in the command bar at the bottom and hit **Enter** or click the send icon.
-3. **Toggle Theme**: Click the **Brightness/Contrast** icon in the far-left navigation bar to switch between Light and Dark modes.
-4. **Attach Files**: Use the **Attach** or **Image** icons in the input area to upload files for context-aware conversations.
-5. **Manage History**: Search and manage your previous chats directly from the left sidebar.
+1. **Initialization**: Select the **New Chat** button found in the primary navigation sidebar.
+2. **Interaction**: Input queries into the central command bar. Execute via **Enter** or the send trigger.
+3. **Aesthetic Toggle**: Utilize the **Brightness/Contrast** control in the utility sidebar to modulate the visual theme.
+4. **Data Injection**: Access the **Attach** or **Image** triggers to feed contextual file data to the AI agent.
+5. **Session Management**: Review and synthesize previous interactions via the localized history interface.
 
-## 🪚 Tech Stack
+## Technical Architecture
 
-- **Frontend**: React 19, Vite
-- **Styling**: Tailwind CSS v4, Lucide/React Icons
-- **AI Service**: Groq Cloud API
-- **State Management**: React Context API
+- **Engine**: React 19 + Vite
+- **Styling Spectrum**: Tailwind CSS v4 + React Icons
+- **Inference Layer**: Groq Cloud API
+- **Persistence Foundation**: React Context + LocalStorage
 
 ---
-*Built with precision and high-performance in mind.*
+*Optimized for professional deployment and high-fidelity interaction.*
